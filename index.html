@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Image Slider</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="slider" id="slider">
+  <div class="slides">
+    <img src="./Image/nature1.jpeg" class="slide fade">
+    <img src="./Image/nature2.jpeg" class="slide fade">
+    <img src="./Image/nature3.jpeg" class="slide fade">
+     <img src="./Image/nature4.jpeg" class="slide fade">
+      <img src="./Image/nature5.jpeg" class="slide fade">
+  </div>
+
+  <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+  <button class="next" onclick="changeSlide(1)">&#10095;</button>
+  
+  <div class="dots" id="dots"></div>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
+
